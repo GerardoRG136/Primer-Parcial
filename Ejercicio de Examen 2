@@ -1,0 +1,7 @@
+def dolares():
+  print("Ingrese su cantidad de dolares, por favor")
+  x=input()
+  y= (int(x)*0.93)
+  print("Su cantidad de euros es", (y))
+
+dolares()
