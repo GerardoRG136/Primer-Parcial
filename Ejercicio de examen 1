@@ -1,0 +1,10 @@
+def precio():
+  print("Ingrese su precio, por favor")
+  x= input()
+  print("Ingrese su descuento, por favor")
+  y= input()
+  z= (int(x)*int(y)/100)
+  w=(int(x)-(z))
+  print ("Su cantidad es", (w))
+
+precio()
