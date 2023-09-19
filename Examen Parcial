@@ -1,0 +1,62 @@
+def temperatura1F():
+  print("Escribe tu temperatura en grados Celsius")
+  x= input()
+  F1= (int(x)*9/5 +32)
+  print ("Tu resultado en grados Fahrenheit", (F1))
+
+temperatura1F()
+
+def temperatura1K():
+  print("Escribe tu temperatura en grados Celsius")
+  x= input()
+  K1= (int(x)+273.15)
+  print ("Tu resultado en grados Kelvin", (K1))
+
+temperatura1K()
+
+def temperatura2F():
+  print("Escribe tu temperatura en grados Celsius")
+  x= input()
+  F2= (int(x)*9/5 +32)
+  print ("Tu resultado en grados Fahrenheit", (F2))
+
+temperatura2F()
+
+def temperatura2K():
+  print("Escribe tu temperatura en grados Celsius")
+  x= input()
+  K2= (int(x)+273.15)
+  print ("Tu resultado en grados Kelvin", (K2))
+
+temperatura2K()
+
+def temperatura3F():
+  print("Escribe tu temperatura en grados Celsius")
+  x= input()
+  F3= (int(x)*9/5 +32)
+  print ("Tu resultado en grados Fahrenheit", (F3))
+
+temperatura3F()
+
+def temperatura3K():
+  print("Escribe tu temperatura en grados Celsius")
+  x= input()
+  K3= (int(x)+273.15)
+  print ("Tu resultado en grados Kelvin", (K3))
+
+temperatura3K()
+
+def promedio():
+  PF1= (75.2 + 73.4 + 69.8)
+  PF2= (PF1/3)
+  print ("Su promedio de grados Fahrenheit es",(PF2))
+
+promedio()
+
+def converciónIF():
+  print("Escribe tu temperatura en grados Fahrenheit")
+  x= input()
+  CIF= (int(x)-32)*(5/9)
+  print ("Tu resultado en grados Celcius", (CIF))
+
+converciónIF()
