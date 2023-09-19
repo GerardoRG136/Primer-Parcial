@@ -1,0 +1,19 @@
+def perímetro():
+  print("Ingrese su base, por favor")
+  x= input()
+  print("Ingrese su ancho, por favor")
+  y= input()
+  z= (int(x)*2+int(y)*2)
+  print("Su perímetro es",(z))
+
+perímetro()
+
+def area():
+  print("Ingrese su base, por favor")
+  x= input()
+  print("Ingrese su ancho, por favor")
+  y= input()
+  z= (int(x)*int(y))
+  print("Su area es",(z))
+
+area()
