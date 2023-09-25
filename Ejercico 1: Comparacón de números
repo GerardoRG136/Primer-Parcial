@@ -1,0 +1,14 @@
+#Ejercico 1: Comparacón de números
+num1 = float(input("Ingresa el primer número: "))
+num2 = float(input("Ingresa el segundo número: "))
+if num1 >= num2:
+    print("Tu primer numero es mayor que el segundo ")
+else:
+    print("Tu segundo numero es mayor que el primero ")
+
+num1 = float(input("Ingresa el primer número: "))
+num2 = float(input("Ingresa el segundo número: "))
+if num1 >= num2:
+    print("Tu primer numero es mayor que el segundo ")
+else:
+    print("Tu segundo numero es mayor que el primero ")
